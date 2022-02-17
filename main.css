@@ -1,0 +1,70 @@
+body {
+    background: #141b23;
+    color:#c9cacc;
+    @font-face {
+        font-family: 'Franklin Gothic Medium'
+        src: url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap')
+        
+    }
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 4px;
+    font-weight: bold;
+    
+}
+
+.head {
+    width: 20%;
+    height: 10px;
+    margin: 10px;
+    padding: 10px;
+    color:#5d6570;
+    font-size: 20px;
+    font-weight: bolder;
+    word-spacing: 13px;
+
+}
+/*content*/
+.main {
+    width: 38%;
+    height: 40px;
+    margin: 20px;
+    text-align: left;
+    padding: 80px;
+    float: right;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    
+}
+  /*відступ між абзацами*/
+p + p {  
+    margin-top: 25px;
+
+ }
+ /*текст*/
+ p {
+     line-height: 20px;
+     font-weight: bold;
+
+ }
+
+ .footer {
+     color:#494e55;
+     width: 50%;
+     height: 50px;
+     padding-top: 150px;
+     margin-bottom: 30%;
+      
+ }
+/*картинка*/
+   .night_img {
+    width: 70%;
+    position: relative;
+    padding: 5px;
+    margin: 0;
+    float: right;
+       
+}
